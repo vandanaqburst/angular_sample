@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let question of questions" id={{question.id}} (click)="showItems($event)">
+  	Question {{question.id}}
+  	<p style="visibility:hidden">{{question.title}}?</p>
+  </li>
+</ul>
+

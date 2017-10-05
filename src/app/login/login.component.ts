@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import {
-  QuestionsService
-} from '../services/index';
+// import {
+//   QuestionsService
+// } from '../services/index';
 
 @Component({
-  selector: 'app-question',
+  selector: 'app-login',
   templateUrl: './question.component.html',
   styleUrls: ['./question.component.css'],
   providers: [QuestionsService]
